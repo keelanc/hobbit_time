@@ -1,0 +1,28 @@
+{
+  "uuid": "a042fd1b-8617-4259-9ddc-d8854798ae49",
+  "shortName": "Hobbit Time",
+  "longName": "Hobbit Time",
+  "companyName": "keelanchufor.com",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+        {
+        "type": "font",
+        "name": "FONT_GOTHAM_BOLD_28",
+        "file": "fonts/Gotham-Bold.ttf"
+        },
+              
+              
+        {
+        "type": "font",
+        "name": "FONT_GOTHAM_LIGHT_36",
+        "file": "fonts/Gotham-Light.ttf"
+        }
+      ]
+  }
+}

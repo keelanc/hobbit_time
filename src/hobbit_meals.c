@@ -25,12 +25,9 @@ void hobbit_time(int int_hour, char* str_hour) {
 	if (int_hour > 4 && int_hour < 22) {
 		strcat(str_hour, MEALS[int_hour - 5]);
 	}
-/*	else if (int_hour > 22 && int_hour < 40) {
-		strcat(str_hour, MEALS[int_hour - 23]);
-	}
-	else if (int_hour > 41 && int_hour < 59) {
-		strcat(str_hour, MEALS[int_hour - 42]);
-	}*/
+    else if (int_hour == 0) {
+        strcat(str_hour, "mid\nnight\nsnack");
+    }
 	else {
 		strcat(str_hour, "sleep");
 	}
