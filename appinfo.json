@@ -4,7 +4,7 @@
   "longName": "Hobbit Time",
   "companyName": "keelanchufor.com",
   "versionCode": 1,
-  "versionLabel": "1.0.0",
+  "versionLabel": "1.0.1",
   "watchapp": {
     "watchface": true
   },
@@ -12,12 +12,16 @@
   "resources": {
     "media": [
         {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_hobbit_time.png"
+        },
+        {
         "type": "font",
         "name": "FONT_GOTHAM_BOLD_28",
         "file": "fonts/Gotham-Bold.ttf"
         },
-              
-              
         {
         "type": "font",
         "name": "FONT_GOTHAM_LIGHT_36",
